@@ -1,8 +1,10 @@
 * {
     font-family: 'Poppins', sans-serif;
-    position: relative;
 }
 
+*::-webkit-scrollbar {
+    display: none;
+}
 .logo img 
 {
     position: absolute;

@@ -1,17 +1,21 @@
 * 
 {
     font-family: 'Poppins', sans-serif;
-    position: relative;
     background: #F2F2F2;
+}
+
+*::-webkit-scrollbar {
+    display: none;
 }
 
 .left-navigation
 {
-    position: absolute;
+    position: fixed;
     width: 279px;
     height: 1080px;
     left: 0px;
     top: 0px;
+    z-index: 10000000000000000;
 
     background: #FFFFFF;
 }
@@ -19,6 +23,7 @@
 .link-dashboard
 {
     background-color: white;
+    opacity: 50%;
 }
 
 .link-project
@@ -29,6 +34,7 @@
 .link-member
 {
     background-color: white;
+    opacity: 50%;
 }
 
 .link-dashboard a
@@ -51,7 +57,7 @@
     display: flex;
     align-items: center;
 
-    color: #727272;
+    color: black;
 
 }
 
@@ -148,7 +154,20 @@
     display: flex;
     align-items: center;
 
-    color: #727272;
+    color: black;
+}
+
+.header-content
+{
+    position: fixed;
+    z-index: 100000000;
+    width: 1640px;
+    height: 87px;
+    border: 1px solid #D4D4D4;
+    left: 278px;
+    top: 0px;
+    
+    background: #FFFFFF;
 }
 
 .header-content h1
@@ -156,20 +175,20 @@
     position: absolute;
     width: 131px;
     height: 35px;
-    left: 314px;
-    top: 27px;
+    left: 25px;
+    top: 25px;
 
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 700;
-    font-size: 23px;
+    font-weight: 600;
+    font-size: 21px;
     line-height: 34px;
     /* identical to box height */
 
     display: flex;
     align-items: center;
 
-    color: #222222;
+    color: #222222;background: transparent;
 }
 
 .header-content .profile-user
@@ -177,11 +196,11 @@
     position: absolute;
     width: 35px;
     height: 35px;
-    left: 1722px;
+    left: 1422px;
     top: 26px;
-
+    
     background: #3D7BF4;
-    border-radius: 50px;
+    border-radius: 20px;
 }
 
 .header-content .name-user
@@ -189,20 +208,21 @@
     position: absolute;
     width: 88px;
     height: 21px;
-    left: 1772px;
+    left: 1472px;
     top: 32px;
-
+    
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 21px;
     /* identical to box height */
-
+    
     display: flex;
     align-items: center;
-
+    
     color: #222222;
+    background: transparent;
 }
 
 .ic-search img 
@@ -210,8 +230,9 @@
     position: absolute;
     width: 24px;
     height: 24px;
-    left: 1502px;
+    left: 1202px;
     top: 33px;
+    background: transparent;
 }
 
 .ic-notify img 
@@ -219,8 +240,9 @@
     position: absolute;
     width: 24px;
     height: 24px;
-    left: 1569px;
+    left: 1269px;
     top: 33px;
+    background: transparent;
 }
 
 .ic-messange img
@@ -228,18 +250,20 @@
     position: absolute;
     width: 24px;
     height: 24px;
-    left: 1635px;
+    left: 1335px;
     top: 33px;
+    background: transparent;
 }
 
 .card-content-1
 {
     position: absolute;
-    width: 921px;
+    width: 738px;
     height: 893px;
     left: 314px;
+    border: 1px solid #D4D4D4;
     top: 155px;
-
+    
     background: #FFFFFF;
     border-radius: 10px;
 }
@@ -247,11 +271,11 @@
 .card-content-2
 {
     position: absolute;
-    width: 618px;
-    height: 457px;
-    left: 1270px;
+    width: 793px;
+    height: 893px;
+    left: 1090px;
     top: 155px;
-
+    border: 1px solid #D4D4D4;
     background: #FFFFFF;
     border-radius: 10px;
 }
@@ -332,4 +356,16 @@
 
     color: #606060;
     background: transparent;
+}
+
+.accordion 
+{
+    position: absolute;
+    top: 70px;
+}
+
+.table
+{
+    position: absolute;
+    top: 70px;
 }

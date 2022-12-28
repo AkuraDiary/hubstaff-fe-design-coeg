@@ -1,17 +1,21 @@
 * {
     font-family: 'Poppins', sans-serif;
+    background: #ffffff;
+    box-sizing: border-box;
 }
 
 *::-webkit-scrollbar {
     display: none;
 }
+
 .logo img 
 {
     position: absolute;
-    width: 340px;
-    height: 72px;
-    left: 194px;
-    top: 182px;
+    width: 1060px;
+    height: 1080px;
+    left: 860px;
+    top: 0px;
+    
 }
 
 .header h1 {

@@ -9,6 +9,11 @@
     display: none;
 }
 
+.logo-nav
+{
+    background: white;
+}
+
 .left-navigation
 {
     z-index: 100000000000;
@@ -16,6 +21,7 @@
     width: 279px;
     height: 1080px;
     left: 0px;
+    border: 1px solid #D4D4D4;
     top: 0px;
     background: #FFFFFF;
 }
@@ -279,51 +285,6 @@
     height: 24px;
     left: 1335px;
     top: 33px;
-    background: transparent;
-}
-
-.content-1
-{
-    position: absolute;
-    width: 988px;
-    height: 682px;
-    left: 310px;
-    top: 372px;
-
-    background: #FFFFFF;
-    border-radius: 5px;
-    border: 1px solid #D4D4D4;
-}
-
-.content-1 .user-activity
-{
-    position: relative;
-    width: 937px;
-    height: 190px;
-    left: 21px;
-    background: transparent;
-    top: 95px;
-}
-
-.content-1 h1
-{
-    position: absolute;
-    width: 138px;
-    height: 23px;
-    left: 21px;
-    top: 22px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 22px;
-    /* identical to box height */
-
-    display: flex;
-    align-items: center;
-
-    color: #606060;
     background: transparent;
 }
 
@@ -863,7 +824,7 @@ border-radius: 5px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 15px;
     /* identical to box height */
     
@@ -871,4 +832,82 @@ border-radius: 5px;
     align-items: center;
     
     color: #FFFFFF;
+}
+
+.content-1
+{
+    position: absolute;
+    width: 984px;
+    height: 684px;
+    left: 314px;
+    top: 366px;
+
+    background: #d4d4d4;
+}
+
+.card-1
+{
+    position: absolute;
+    border: 1px solid #D4D4D4;
+    width: 315px;
+    height: 332px;
+    left: 314px;
+    top: 366px;
+    
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.card-1 .image 
+{
+    position: absolute;
+    width: 315px;
+    border: 1px solid #D4D4D4;
+    height: 194px;
+    left: 0px;
+    top: 0px;
+    
+    background: #BEBEBE;
+    border-radius: 2px;
+}
+
+.card-1 .title
+{
+    position: absolute;
+    width: 70px;
+    height: 23px;
+    left: 22px;
+    top: 213px;
+background: transparent;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #444444;
+}
+
+.card-1 .description
+{
+    position: absolute;
+    width: 278px;
+    height: 54px;
+    left: 22px;
+    top: 250px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+
+    color: #444444;
+    background: transparent;
 }

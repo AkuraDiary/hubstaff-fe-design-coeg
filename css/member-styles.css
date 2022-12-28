@@ -8,6 +8,11 @@
     display: none;
 }
 
+.logo-nav
+{
+    background: white;
+}
+
 .left-navigation
 {
     position: fixed;
@@ -16,6 +21,7 @@
     height: 1080px;
     left: 0px;
     top: 0px;
+    border: 1px solid #D4D4D4;
 
     background: #FFFFFF;
 }
@@ -371,7 +377,228 @@
     background: transparent;
 }
 
-.table
+.table-head
 {
-    border: 1px solid #D4D4D4;
+    position: absolute;
+    width: 1518px;
+    height: 62px;
+
+    background: rgba(217, 217, 217, 0.34);
+}
+
+.table-head .column-head-1
+{
+    position: absolute;
+    width: 206px;
+    height: 23px;
+    left: 49px;
+    top: 19px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    background: transparent;
+}
+
+.table-head .column-head-2
+{
+    position: absolute;
+width: 79px;
+height: 23px;
+left: 511px;
+top: 19px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+background: transparent;
+}
+
+.table-head .column-head-3
+{
+    position: absolute;
+width: 42px;
+height: 23px;
+left: 887px;
+top: 19px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+background: transparent;
+}
+
+.table-head .column-head-4
+{
+    position: absolute;
+width: 71px;
+height: 23px;
+left: 1248px;
+top: 19px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+background: transparent;
+}
+
+.table-contents
+{
+    position: relative;
+    width: 1518px;
+    height: 62px;
+    top: 64px;
+    margin: 5PX;
+
+    background:transparent;
+}
+
+.table-contents .lin{
+    position: absolute;
+    width: 1517.02px;
+    height: 0px;
+    top: 63px;
+
+    border: 1px solid #ececec09;
+}
+
+.table-contents .elipse
+{
+    position: absolute;
+width: 36px;
+height: 36px;
+left: 38px;
+top: 12px;
+
+background: #D9D9D9;
+border-radius: 50px;
+}
+
+.contents-1
+{
+
+    position: absolute;
+    width: 333px;
+    height: 20px;
+    left: 85px;
+    top: 12px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #2b2b2b;
+background: transparent;    
+}
+
+.contents-2
+{
+    position: absolute;
+    width: 333px;
+    height: 18px;
+    left: 85px;
+    top: 30px;
+    background: transparent;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #797979;
+}
+
+.contents-3
+{
+    position: absolute;
+    width: 332px;
+    height: 23px;
+    left: 511px;
+    top: 16px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    background: transparent;
+}
+    
+.contents-4
+{
+    position: absolute;
+    width: 336px;
+    height: 23px;
+    left: 887px;
+    top: 16px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    background: transparent;
+}
+
+.contents-5
+{
+    position: absolute;
+    width: 266px;
+    height: 23px;
+    left: 1248px;
+    top: 16px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    background: transparent;
 }

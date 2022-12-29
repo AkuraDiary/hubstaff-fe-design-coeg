@@ -342,25 +342,27 @@
 
 .content-2
 {
-    position: absolute;
-    width: 562px;
-    height: 494px;
-    border: 1px solid #D4D4D4;
-    left: 1330px;
-    top: 161px;
+    box-sizing: border-box;
 
+    position: absolute;
+    width: 568px;
+    height: 887px;
+    left: 1323px;
+    top: 163px;
+    
     background: #FFFFFF;
-    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
 }
 
 .content-2 h1
 {
     position: absolute;
-    width: 80px;
+    width: 88px;
     height: 23px;
     left: 20px;
     top: 20px;
-    
+    background: transparent;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -372,7 +374,6 @@
     align-items: center;
     
     color: #606060;
-    background: transparent;
 }
 
 .user-member h1
@@ -549,107 +550,6 @@ align-items: center;
 color: #444444;
 }
 
-.content-3
-{
-    position: absolute;
-    width: 562px;
-    height: 363px;
-    left: 1329px;
-    border: 1px solid #D4D4D4;
-    top: 687px;
-
-background: #FFFFFF;
-border-radius: 5px;
-}
-
-.content-3 .header 
-{
-    position: absolute;
-    width: 71px;
-    height: 23px;
-    left: 27px;
-    top: 21px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 22px;
-    /* identical to box height */
-
-    display: flex;
-    align-items: center;
-
-    color: #606060;
-    background: transparent;
-}
-
-.content-3 .member-header
-{
-    position: absolute;
-    width: 177px;
-    height: 18px;
-    left: 27px;
-    top: 68px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 18px;
-    /* identical to box height */
-
-    display: flex;
-    align-items: center;
-
-    color: #444444;
-    background: transparent;
-}
-
-.content-3 .today-header
-{
-    position: absolute;
-    width: 38px;
-    height: 18px;
-    left: 202px;
-    top: 68px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 18px;
-    /* identical to box height */
-
-    display: flex;
-    align-items: center;
-
-    color: #444444;
-    background: transparent;
-}
-
-.content-3 .week-header
-{
-    position: absolute;
-    width: 159px;
-    height: 18px;
-    left: 371px;
-    top: 68px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 18px;
-    /* identical to box height */
-
-    display: flex;
-    align-items: center;
-
-    color: #444444;
-    background: transparent;
-}
-
 .container-members
 {
     position: relative;
@@ -659,96 +559,6 @@ border-radius: 5px;
     left: 20px;
     top: 100px;
 
-    background: transparent;
-}
-
-.content-3 .profile-user
-{
-    position: absolute;
-    width: 27px;
-    height: 26px;
-    left: 11px;
-    top: 5px;
-
-    background: #dddddd;
-    border-radius: 20px;
-}
-
-.content-3 .name-user
-{
-    position: absolute;
-    width: 115px;
-    height: 15px;
-    left: 44px;
-    top: 10px;
-    
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 15px;
-    /* identical to box height */
-    
-    display: flex;
-    align-items: center;
-    
-    color: #000000;
-    background: transparent;
-}
-
-.content-3 .line-header
-{
-    position: absolute;
-    width: 510px;
-    height: 0px;
-    left: 28px;
-    top: 99px;
-
-    border: 1px solid #f0f0f0;
-    transform: rotate(0.11deg);
-}
-
-.content-3 .today-user
-{
-    position: absolute;
-    width: 21px;
-    height: 15px;
-    left: 180px;
-    top: 10px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 15px;
-    /* identical to box height */
-
-    display: flex;
-    align-items: center;
-
-    color: #000000;
-    background: transparent;
-}
-
-.content-3 .week-user
-{
-    position: absolute;
-    width: 76px;
-    height: 15px;
-    left: 353px;
-    top: 10px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 15px;
-    /* identical to box height */
-
-    display: flex;
-    align-items: center;
-
-    color: #000000;
     background: transparent;
 }
 
@@ -1071,4 +881,116 @@ display: flex;
 align-items: center;
 
 color: #444444;
+}
+
+.content-2 .member 
+{
+    background: transparent;
+    position: absolute;
+width: 60px;
+height: 21px;
+left: 67px;
+top: 84px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #444444;
+}
+
+.content-2 .timespan 
+{
+    background: transparent;
+    position: absolute;
+width: 71px;
+height: 21px;
+left: 384px;
+top: 84px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #444444;
+
+}
+
+.content-2 .line
+{
+    position: absolute;
+    width: 510px;
+    height: 0px;
+    left: 24px;
+    top: 116.5px;
+
+    border: 1px solid #D7D7D7;
+}
+
+.container-table
+{
+    position: relative;
+    width: 510px;
+    height: 37px;
+    left: 24px;
+    top: 125px;
+
+    background: #9c929200;
+}
+
+.container-table .member
+{
+    background: transparent;
+    
+position: absolute;
+width: 59px;
+height: 21px;
+left: 44px;
+top: 8px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #444444bb;
+}
+
+.container-table .timespan
+{
+    background: transparent;
+    position: absolute;
+width: 70px;
+height: 21px;
+left: 361px;
+top: 8px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #444444bb;
 }

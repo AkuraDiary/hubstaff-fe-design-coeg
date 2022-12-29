@@ -26,6 +26,38 @@
     background: #FFFFFF;
 }
 
+.btn-add-blue
+{
+    border: 0;
+    position: absolute;
+width: 88px;
+height: 39px;
+left: 1463px;
+top: 45px;
+
+background: #3D7BF4;
+border-radius: 5px;
+}
+
+.btn-add-blue .add-txt
+{
+position: absolute;
+width: 31px;
+height: 23px;
+left: 28px;
+top: 8px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
 .link-dashboard
 {
     background-color: white;
@@ -601,4 +633,316 @@ background: transparent;
     display: flex;
     align-items: center;
     background: transparent;
+}
+
+.conten-2
+{
+    position: absolute;
+    width: 1581px;
+    height: 893px;
+    left: 309px;
+    top: 155px;
+    border: 1px solid rgba(0, 0, 0, 0.19);
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.frame-table
+{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1521px;
+    height: 762px;
+    left: 30px;
+    top: 101px;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.19);
+}
+
+.conten-2 .head-table
+{
+    box-sizing: border-box;
+
+    position: relative;
+    width: 1521px;
+    height: 58px;
+    left: 0px;
+    top: 0px;
+    border-radius: 1px;
+    
+    background: rgba(217, 217, 217, 0.39);
+    /* border: 1px solid rgba(0, 0, 0, 0.19); */
+}
+
+.conten-2 .fill-table
+{
+    position: relative;
+width: 1499px;
+height: 58px;
+margin: 10px;
+left: 0px;
+top: 2px;
+
+background: rgba(217, 217, 217, 0.19);
+}
+
+.conten-2 h1
+{
+    position: absolute;
+    width: 99px;
+    height: 23px;
+    left: 20px;
+    top: 20px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #606060;
+background: transparent;
+}
+
+.conten-2 .Name
+{
+    background: transparent;
+    position: absolute;
+width: 49px;
+height: 24px;
+left: 39px;
+top: 17px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #444444;
+}
+
+.conten-2 .Email
+{
+    background: transparent;
+    position: absolute;
+width: 45px;
+height: 24px;
+left: 385px;
+top: 17px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #444444;
+}
+
+.conten-2 .Role
+{
+    background: transparent;
+    position: absolute;
+width: 35px;
+height: 24px;
+left: 727px;
+top: 17px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #444444;
+}
+
+.conten-2 .Joined-at
+{
+    background: transparent;
+    position: absolute;
+width: 76px;
+height: 24px;
+left: 1059px;
+top: 17px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #444444;
+}
+
+.conten-2 .Action
+{
+    position: absolute;
+width: 41px;
+height: 24px;
+left: 1401px;
+top: 17px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #444444;
+    background: transparent;
+}
+
+.fill-table .Name-contents
+{
+    background: transparent;
+    position: absolute;
+width: 283px;
+height: 24px;
+left: 39px;
+top: 17px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: rgba(68, 68, 68, 0.69);
+
+}
+
+.fill-table .Email-contents
+{
+    background: transparent;
+    position: absolute;
+width: 271px;
+height: 24px;
+left: 385px;
+top: 17px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: rgba(68, 68, 68, 0.69);
+}
+
+.fill-table .Role-contents
+{
+    background: transparent;
+    position: absolute;
+width: 263px;
+height: 24px;
+left: 727px;
+top: 17px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: rgba(68, 68, 68, 0.69);
+}
+
+.fill-table .Joined-at-contents
+{
+    background: transparent;
+    position: absolute;
+width: 258px;
+height: 24px;
+left: 1059px;
+top: 17px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: rgba(68, 68, 68, 0.69);
+}
+
+.fill-table .Action-contents
+{
+    background: transparent;
+    box-sizing: border-box;
+
+position: absolute;
+width: 79px;
+height: 35px;
+left: 1387px;
+top: 11px;
+
+background: #ffe810;
+border: 0;
+border: 1px solid rgba(0, 0, 0, 0.19);
+border-radius: 5    px;
+}
+
+.fill-table .Action-contents .txt 
+{
+    position: absolute;
+width: 35px;
+height: 21px;
+left: 22px;
+top: 5px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 100;
+font-size: 13px;
+line-height: 21px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #000000;
 }

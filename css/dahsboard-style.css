@@ -847,67 +847,228 @@ border-radius: 5px;
 
 .card-1
 {
+    box-sizing: border-box;
+
     position: absolute;
-    border: 1px solid #D4D4D4;
     width: 315px;
     height: 332px;
     left: 314px;
-    top: 366px;
-    
+    top: 363px;
+
     background: #FFFFFF;
-    border-radius: 5px;
-}
-
-.card-1 .image 
-{
-    position: absolute;
-    width: 315px;
     border: 1px solid #D4D4D4;
-    height: 194px;
-    left: 0px;
-    top: 0px;
-    
-    background: #BEBEBE;
-    border-radius: 2px;
+    border-radius: 10px;
 }
 
-.card-1 .title
+.card-1 h1
 {
     position: absolute;
-    width: 70px;
-    height: 23px;
-    left: 22px;
-    top: 213px;
-background: transparent;
+    width: 98px;
+    height: 24px;
+    left: 17px;
+    top: 38px;
+
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
-    line-height: 22px;
+    font-size: 16px;
+    line-height: 24px;
     /* identical to box height */
-    
+
     display: flex;
     align-items: center;
-    
-    color: #444444;
+    background: transparent;
 }
 
-.card-1 .description
+.card-1 h2
 {
     position: absolute;
-    width: 278px;
-    height: 54px;
-    left: 22px;
-    top: 250px;
+width: 260px;
+height: 54px;
+left: 17px;
+top: 109px;
 
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+display: flex;
+align-items: center;
 
-    color: #444444;
+color: #444444;
+background: transparent;
+
+}
+
+.card-2
+{
+box-sizing: border-box;
+
+position: absolute;
+width: 315px;
+height: 332px;
+left: 650px;
+top: 363px;
+
+background: #FFFFFF;
+border: 1px solid #D4D4D4;
+border-radius: 10px;
+}
+
+.card-3
+{
+    box-sizing: border-box;
+
+position: absolute;
+width: 315px;
+height: 332px;
+left: 983px;
+top: 363px;
+
+background: #FFFFFF;
+border: 1px solid #D4D4D4;
+border-radius: 10px;
+}
+
+.card-4
+{
+    box-sizing: border-box;
+
+position: absolute;
+width: 984px;
+height: 332px;
+left: 314px;
+top: 718px;
+
+background: #FFFFFF;
+border: 1px solid #D4D4D4;
+border-radius: 10px;
+}
+
+.card-2 h1
+{
     background: transparent;
+    position: absolute;
+width: 98px;
+height: 24px;
+left: 17px;
+top: 38px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #444444;
+}
+
+.card-2 h2
+{
+    background: transparent;
+    position: absolute;
+width: 260px;
+height: 54px;
+left: 17px;
+top: 109px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: #444444;
+
+}
+
+.card-3 h1
+{
+    background: transparent;
+    position: absolute;
+width: 98px;
+height: 24px;
+left: 17px;
+top: 38px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #444444;
+}
+
+.card-3 h2
+{
+    background: transparent;
+    position: absolute;
+width: 260px;
+height: 54px;
+left: 17px;
+top: 109px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: #444444;
+}
+
+.card-4 h1
+{
+    background: transparent;
+    position: absolute;
+width: 98px;
+height: 24px;
+left: 17px;
+top: 38px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #444444;
+}
+
+.card-4 h2
+{
+    background: transparent;
+    position: absolute;
+width: 947px;
+height: 55px;
+left: 17px;
+top: 84px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: #444444;
 }

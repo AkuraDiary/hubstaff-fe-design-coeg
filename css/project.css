@@ -644,22 +644,29 @@ background: transparent;
 
     position: absolute;
     width: 1521px;
-    height: 800px;
+    height: 750px;
     left: 30px;
-    top: 65px;
+    top: 120px;
     background: transparent;
     border: 1px solid rgba(0, 0, 0, 0.19);
     border-radius: 5px;
+    overflow-y: scroll;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap; */
 }
 
 .frame-list .head-table
 {
     position: absolute;
+    
 width: 1521px;
 height: 50px;
-left: 0px;
-top: 0px;
-
+left: 30px;
+top: 66px;
+border: 1px solid rgba(0, 0, 0, 0.19);
+border-radius: 5px;
 background: rgba(217, 217, 217, 0.39);
 }
 
@@ -671,7 +678,7 @@ background: rgba(217, 217, 217, 0.39);
     width: 1519px;
     height: 53px;
     left: 0px;
-    top: 50px;
+    top: 0px;
 
     border: 1px solid rgba(0, 0, 0, 0.19);
 }
@@ -683,7 +690,7 @@ background: rgba(217, 217, 217, 0.39);
 width: 99px;
 height: 23px;
 left: 21px;
-top: 14px;
+top: 13px;
 
 font-family: 'Poppins';
 font-style: normal;

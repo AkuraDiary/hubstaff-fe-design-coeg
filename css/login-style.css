@@ -11,11 +11,10 @@
 .logo img 
 {
     position: absolute;
-    width: 1060px;
-    height: 1080px;
-    left: 860px;
-    top: 0px;
-    
+    width: 340px;
+    height: 72px;
+    left: 194px;
+    top: 182px;    
 }
 
 .header h1 {

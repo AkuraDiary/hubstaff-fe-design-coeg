@@ -1,0 +1,286 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    background: #ffffff;
+    box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+
+.right-section img
+{
+    position: absolute;
+    width: 340px;
+    height: 72px;
+    left: 1195px;
+    top: 130px;
+}
+
+.right-section .header
+{
+background: transparent;
+    position: absolute;
+    width: 261px;
+    height: 57px;
+    left: 1205px;
+    top: 257px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    
+    color: #474747;
+    
+}
+
+.right-section p
+{
+    background: transparent;
+    position: absolute;
+    width: 261px;
+    height: 57px;
+    left: 1204px;
+    top: 217px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    
+    color: #474747;
+}
+
+.login-form1 label
+{
+    position: absolute;
+width: 210px;
+height: 32px;
+left: 1204px;
+top: 351px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 26px;
+display: flex;
+align-items: center;
+
+color: #252525;
+background: transparent;
+}
+
+.login-form1 input
+{
+    box-sizing: border-box;
+
+position: absolute;
+width: 523px;
+height: 59px;
+left: 1204px;
+top: 387px;
+
+border: 1px solid #515151;
+border-radius: 10px;
+}
+
+
+.login-form2 label
+{
+    background: transparent;
+    position: absolute;
+width: 210px;
+height: 32px;
+left: 1204px;
+top: 466px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 26px;
+display: flex;
+align-items: center;
+
+color: #252525;
+}
+
+.login-form2 input
+{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 523px;
+    height: 59px;
+    left: 1204px;
+    top: 501px;
+    
+    border: 1px solid #515151;
+    border-radius: 10px;
+}
+
+.login-form3 label
+{
+    background: transparent;
+    position: absolute;
+width: 210px;
+height: 32px;
+left: 1204px;
+top: 576px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 26px;
+display: flex;
+align-items: center;
+
+color: #252525;
+}
+
+.login-form3 input
+{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 523px;
+    height: 59px;
+    left: 1204px;
+    top: 612px;
+    
+    border: 1px solid #515151;
+    border-radius: 10px;
+}
+
+.login-form4 label
+{
+    background: transparent;
+    position: absolute;
+width: 210px;
+height: 32px;
+left: 1204px;
+top: 691px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 26px;
+display: flex;
+align-items: center;
+
+color: #252525;
+}
+
+.login-form4 input
+{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 523px;
+    height: 59px;
+    left: 1204px;
+    top: 726px;
+    
+    border: 1px solid #515151;
+    border-radius: 10px;
+}
+
+.login-form5 label
+{
+    background: transparent;
+    position: absolute;
+width: 210px;
+height: 32px;
+left: 1204px;
+top: 801px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 26px;
+display: flex;
+align-items: center;
+
+color: #252525;
+
+}
+
+.login-form5 input
+{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 523px;
+    height: 59px;
+    left: 1204px;
+    top: 836px;
+    
+    border: 1px solid #515151;
+    border-radius: 10px;
+}
+
+.register
+{
+    position: absolute;
+    width: 487px;
+    height: 40px;
+    left: 1227px;
+    top: 924px;
+    
+    background: #3D7BF4;
+    border-radius: 10px;
+    border: 0;  
+}
+
+.class-register h1
+{
+    position: absolute;
+width: 112px;
+height: 36px;
+left: 1423px;
+top: 927px;
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+background: transparent;
+font-size: 15px;
+line-height: 36px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+/* .left-section img
+{
+    position: absolute;
+    width: 895px;
+    height: 864px;
+    left: 0px;
+    top: 217px;   
+    background: transparent; 
+} */
+
+.right-section .logo-v2
+{
+    position: absolute;
+    width: 1174px;
+    height: 1080px;
+    left: 0;
+    top: 0;
+}
